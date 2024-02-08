@@ -10,3 +10,41 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color: darkgreen;
+    height: 100vh;
+}
+
+.table {
+    width: 100%;
+    min-height: 20rem;
+    border: 2px solid white;
+    padding: 2rem;  
+}
+
+h1 {
+    color: white;
+}
+
+#app {
+    height: 100%;
+}
+
+.poker-card {
+    width: 6rem;
+    background-color: white;
+    border-radius: 0.5rem;
+}
+
+.suit {
+    font-size: 1.5rem;
+}
+
+.face-value {
+    color: black;
+    font-size: 2.5rem;
+}
+
+.table {
+    overflow-y: scroll;
+}
